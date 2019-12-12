@@ -44,7 +44,7 @@ while True:
         days=['mon','tue','wed','thu','fri','sat','sun','all']
         day=day[:3].lower()
         if day not in days:
-            print("Please select an available day, or \"All")
+            print("Please! User select an available day, or \"All")
         else:
             day=days.index(day)
             break
